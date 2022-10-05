@@ -33,12 +33,12 @@ main section {
 }
 
 body {
-   background-color: blueviolet;
+   background-color: #502C7C;
    color: black;
 }
 
 header {
-   background-color: rgb(227, 213, 238);
+   background-color: #f3eff7;
    color: blueviolet;
 }
 
@@ -72,7 +72,7 @@ color: whitesmoke;
 
 
   #background {
-   background-color: blueviolet;
+   background-color: #7f5a99;
    color: black;
   }
 
@@ -83,13 +83,13 @@ color: whitesmoke;
 
 
   footer {
-   background-color: aliceblue;
-   color: blue;
+   background-color: blueviolet;
+   color: white;
   }
 
   .home-title {
    background-color: purple;
-   color: whitesmoke;
+   color: black;
   }
 
   .msg h2 {
@@ -98,24 +98,24 @@ color: whitesmoke;
   }
 
   .msg p {
-   background-color: aliceblue;
-   color: purple;
+   background-color: plum;
+   color: black;
   }
 
   footer h3 {
-   background-color: aliceblue;
+   background-color: plum;
    color: black;
   }
 
 
   footer a {
-   background-color: aliceblue;
+   background-color: plum;
    color: black;
    text-decoration: none;
   }
 
   footer a :hover {
-   background-color: whitesmoke;
+   background-color: plum;
    color: blue;
   }
 
