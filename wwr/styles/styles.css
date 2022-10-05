@@ -1,0 +1,141 @@
+div#content {
+	max-width: 1600x;
+   margin: 0 auto;
+}
+
+
+nav a {
+   text-align: center;
+}
+
+
+#hero-msg h1 {
+   text-align: center;
+}
+
+
+#hero-msg h4 {
+   text-align: center;
+}
+
+
+.button-box {
+   text-align: center;
+}
+
+main section {
+   text-align: center;
+}
+
+
+#background {
+   height: 725px;
+}
+
+body {
+   background-color: blueviolet;
+   color: black;
+}
+
+header {
+   background-color: rgb(227, 213, 238);
+   color: blueviolet;
+}
+
+nav {
+   background-color: aliceblue;
+   color: purple;
+}
+nav a:hover {
+   background-color: darkviolet;
+color: whitesmoke;
+}
+
+
+.book {
+   background-color: wheat;
+   color: blue;
+   text-decoration: none;
+}
+ .join{
+   background-color: wheat;
+   color: blue;
+   text-decoration: none;
+ }
+
+ .book:hover {
+   color: black;
+ }
+  .join:hover {
+   color: black;
+  }
+
+
+  #background {
+   background-color: blueviolet;
+   color: black;
+  }
+
+  .msg {
+   background-color: aliceblue;
+   color: blue;
+  }
+
+
+  footer {
+   background-color: aliceblue;
+   color: blue;
+  }
+
+  .home-title {
+   background-color: purple;
+   color: whitesmoke;
+  }
+
+  .msg h2 {
+   background-color: aliceblue;
+   color: black;
+  }
+
+  .msg p {
+   background-color: aliceblue;
+   color: purple;
+  }
+
+  footer h3 {
+   background-color: aliceblue;
+   color: black;
+  }
+
+
+  footer a {
+   background-color: aliceblue;
+   color: black;
+   text-decoration: none;
+  }
+
+  footer a :hover {
+   background-color: whitesmoke;
+   color: blue;
+  }
+
+
+  #hero-img {
+   width: 100%;
+  }
+
+  .icon {
+   width: 80px;
+  }
+
+  .logo {
+   width: 80px;
+  }
+
+  footer p {
+   font-size: 1.2em;
+  }
+
+  footer p a:hover {
+    text-decoration: underline;
+}    
