@@ -1,4 +1,13 @@
-div#content {
+.home-title {
+   background-color: purple;
+   color: black;
+   font-family: PT Serif, Roboto, Arial, sans-serif;
+   font-size: 2em;
+   padding: 0;
+   margin: 0;
+   margin-top: 10px;
+}
+#content {
 	max-width: 1600px;
    margin: 0 auto;
 }
@@ -6,6 +15,7 @@ div#content {
 
 nav a {
    text-align: center;
+   padding: 35px;
 }
 
 
@@ -35,6 +45,7 @@ main section {
 body {
    background-color: #502C7C;
    color: black;
+   font-size: 22px;
 }
 
 header {
@@ -56,11 +67,19 @@ color: whitesmoke;
    background-color: wheat;
    color: blue;
    text-decoration: none;
+   font-size: 18px;
+   padding: 10px;
+   margin-top: 50px;
+   border-radius: 5px;
 }
  .join{
    background-color: wheat;
    color: blue;
    text-decoration: none;
+   font-size: 18px;
+   padding: 10px;
+   margin-top: 50px;
+   border-radius: 5px;
  }
 
  .book:hover {
@@ -85,11 +104,8 @@ color: whitesmoke;
   footer {
    background-color: blueviolet;
    color: white;
-  }
-
-  .home-title {
-   background-color: purple;
-   color: black;
+   padding: 25px 50px;
+   margin-top: 200px;
   }
 
   .msg h2 {
@@ -100,6 +116,9 @@ color: whitesmoke;
   .msg p {
    background-color: plum;
    color: black;
+   font-size: .8em;
+   line-height: 1.5em;
+   padding-bottom: 15px;
   }
 
   footer h3 {
@@ -139,3 +158,31 @@ color: whitesmoke;
   footer p a:hover {
     text-decoration: underline;
 }    
+
+
+h2 {
+   margin: 0;
+}
+
+#logo-link {
+   padding-top: 5px;
+}
+
+footer.social img {
+   padding-top: 15px;
+}
+
+
+.rivers-card, .camping-card, .rapids-card {
+   margin: 200px 0;
+}
+
+
+.card-img {
+   border: 10px solid purple;
+}
+
+
+main section img {
+   box-sizing: border-box;
+}
