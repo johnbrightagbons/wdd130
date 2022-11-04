@@ -73,7 +73,7 @@ color: whitesmoke;
    margin-top: 50px;
    border-radius: 5px;
 }
- .join{
+.join{
    background-color: wheat;
    color: blue;
    text-decoration: none;
@@ -83,7 +83,7 @@ color: whitesmoke;
    border-radius: 5px;
  }
 
- .book:hover {
+.book:hover {
    color: black;
  }
   .join:hover {
@@ -91,12 +91,12 @@ color: whitesmoke;
   }
 
 
-  #background {
+#background {
    background-color: #7f5a99;
    color: black;
   }
 
-  .msg {
+.msg {
    background-color: aliceblue;
    color: blue;
    grid-column: 6/10;
@@ -105,7 +105,7 @@ color: whitesmoke;
   }
 
 
-  footer {
+footer {
    background-color: blueviolet;
    color: white;
    padding: 25px 50px;
@@ -115,12 +115,12 @@ color: whitesmoke;
    align-items: center;
   }
 
-  .msg h2 {
+.msg h2 {
    background-color: aliceblue;
    color: black;
   }
 
-  .msg p {
+.msg p {
    background-color: plum;
    color: black;
    font-size: .8em;
@@ -128,41 +128,41 @@ color: whitesmoke;
    padding-bottom: 15px;
   }
 
-  footer h3 {
+footer h3 {
    background-color: plum;
    color: black;
   }
 
 
-  footer a {
+footer a {
    background-color: plum;
    color: black;
    text-decoration: none;
   }
 
-  footer a :hover {
+footer a :hover {
    background-color: plum;
    color: blue;
   }
 
 
-  #hero-img {
+#hero-img {
    width: 100%;
   }
 
-  .icon {
+.icon {
    width: 80px;
   }
 
-  .logo {
+.logo {
    width: 80px;
   }
 
-  footer p {
+footer p {
    font-size: 1.2em;
   }
 
-  footer p a:hover {
+footer p a:hover {
     text-decoration: underline;
 }    
 
@@ -233,7 +233,8 @@ nav{
 
 .home-grid {
    display: grid;
-   grid-template-columns: repeat(1fr);
+   grid-template-columns: repeat(10, 1fr);
+   
 }
 
 .card-img, .mountains {
