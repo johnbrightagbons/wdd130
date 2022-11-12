@@ -271,6 +271,124 @@ nav{
 
 
 
+
+/* The CSS for the river page */
+
+.page-title {
+   background-color: purple;
+   color: white;
+   font-family: PT Serif, Roboto, Arial, sans-serif;
+   font-size: 2em;
+   padding: 0;
+   margin: 0;
+   margin-top: 10px;
+}
+
+#fork-msg h1 {
+   text-align: center;
+}
+
+#fork-msg h4, .river-grid {
+   text-align: center;
+}
+
+#container {
+	max-width: 1600px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+
+.button{
+   text-align: center;
+}
+
+.main-river-img {
+   width: 100%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  }
+
+.fork {
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   margin-top: auto px;
+}
+
+
+.msg1 {
+   color: white;
+   font-size: .9em;
+   line-height: 1.5em;
+   padding-bottom: 10px;
+   
+   width: auto; 
+   height: 75%;  
+   float: right;
+   margin-top: -600px;
+   margin-right: 850px;
+   display: flex;
+   flex-wrap: wrap;  
+}
+
+
+.river-grid {
+   display: grid;
+   grid-template-columns: repeat(1, 4fr);
+}
+
+
+.rivers-1, p {
+   display:grid;
+   grid-column: 1/4;
+   grid-row: 1/4;
+   align-content: right;
+   width: auto;
+   margin-bottom: 50px;
+   
+}
+
+.msg2 {
+   color: white;
+   font-size: .9em;
+   line-height: 1.5em;
+   padding-bottom: 10px;
+   
+   width: auto; 
+   height: 75%;  
+   float: left;
+   margin-top: -450px;
+   margin-left: 750px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.msg3 {
+   
+   color: white;
+   font-size: .9em;
+   line-height: 1.5em;
+   padding-bottom: 10px;
+   
+   width: auto; 
+   height: 75%;  
+   float: right;
+   margin-top: -500px;
+   margin-right: 850px;
+   display: flex;
+   flex-wrap: wrap;  
+}
+
+.river-3 {
+   margin-top: 50px;
+}
+
+
+
+
+
+/* CSS for media */
 @media screen and (max-width: 900px) {
    #hero, .home-grid {
        display: block;
