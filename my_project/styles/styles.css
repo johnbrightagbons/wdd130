@@ -1,0 +1,188 @@
+/* CSS for the home page */
+#content {
+	max-width: 1600px;
+   margin: 0 auto;
+}
+
+.home-title{
+    background-color: #5143BA ;
+    color: black;
+   font-family: PT Serif, Roboto, Arial, sans-serif;
+   /*font-size: 2em;*/
+   padding: 0;
+   margin: 0;
+   margin-top: -50px;
+}
+
+main section {
+    text-align: center;
+ }
+
+.logo {
+    width: 90px;
+   }
+
+
+
+nav a {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 70px;
+ }
+
+nav {
+    background-color: white;
+    color: #5BC337;
+    
+   
+ }
+
+
+ nav a:hover {
+    background-color: white;
+    color: #5BC337;
+   
+  
+   
+ }
+
+ #blackboard-img{
+    width: auto;
+    position: relative;
+    bottom: 1px;
+ }
+
+ body {
+    background-color: #5BC337;
+    color: whitesmoke;
+    font-size: 22px;
+ }
+ 
+header {
+    background-color: #f3eff7;
+    color: #B34966;
+    
+ }
+
+ 
+ .home-msg, h1 {
+    text-align: center;
+    font-size: 2em;
+ }
+
+ #home-msg, h4 {
+    font-size: 1em;
+    z-index: 1;
+ }
+ 
+
+.classroom-msg, p {
+   padding: 10px; 
+   text-align: center;
+ }
+
+ .classroom, h2 {
+ font-size: 1em;
+ margin-top: 10px;
+ }
+
+ .classroom-msg {
+   padding: 10px;
+   text-align: center;
+ }
+
+ 
+ 
+ footer h3 {
+   background-color: plum;
+   color: black;
+  }
+
+
+footer a {
+   background-color:green;
+   color: white;
+   text-decoration: none;
+  }
+
+footer a :hover {
+   background-color: plum;
+   color: blue;
+  }
+
+  footer p {
+   font-size: 1.2em;
+  }
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+
+footer.social img {
+   padding-top: 15px;
+}
+ 
+
+footer {
+   background-color: green;
+   color: white;
+   padding: 25px 50px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+/* CSS for page 2*/
+
+#examination-msg h2{
+   align-items: center;
+   position: relative;
+   margin-left: 100px;
+   font-size: 2em;
+}
+
+body  {
+   background-color: #5143BA ;
+   color: black;
+   font-size: 22px;
+   align-content: center;
+}
+
+
+.page2{
+   background-color: #5BC337;
+   color: black;
+  font-family: PT Serif, Roboto, Arial, sans-serif;
+  /*font-size: 2em;*/
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+
+/* CSS for page2*/
+
+.page3 {
+   background-color: #5BC337;
+   color: black;
+  font-family: PT Serif, Roboto, Arial, sans-serif;
+  /*font-size: 2em;*/
+  padding: 5px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
