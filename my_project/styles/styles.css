@@ -136,6 +136,11 @@ footer {
    align-items: center;
 }
 
+.classroom-msg :nth-of-type(1), .classroom-msg2 :nth-of-type(1) {
+   text-align: left;
+ }
+ 
+
 
 
 /* CSS for page 2*/
@@ -164,6 +169,20 @@ body  {
   margin: 0;
   margin-top: 10px;
 }
+dd {
+   margin: 3px;
+}
+
+
+.lesson1 :nth-of-type(1) {
+   text-align: left;
+}
+
+.lesson1-mg {
+   display
+}
+
+
 
 
 /* CSS for page2*/
