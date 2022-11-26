@@ -11,7 +11,7 @@
    /*font-size: 2em;*/
    padding: 0;
    margin: 0;
-   margin-top: -50px;
+   margin-top: -20px;
 }
 
 main section {
@@ -44,8 +44,6 @@ nav {
     background-color: white;
     color: #5BC337;
    
-  
-   
  }
 
  #blackboard-img{
@@ -62,8 +60,7 @@ nav {
  
 header {
     background-color: #f3eff7;
-    color: #B34966;
-    
+    color: #B34966; 
  }
 
  
@@ -77,10 +74,10 @@ header {
     z-index: 1;
  }
  
-
 .classroom-msg, p {
    padding: 10px; 
    text-align: center;
+   
  }
 
  .classroom, h2 {
@@ -92,14 +89,11 @@ header {
    padding: 10px;
    text-align: center;
  }
-
- 
  
  footer h3 {
    background-color: plum;
    color: black;
   }
-
 
 footer a {
    background-color:green;
@@ -140,6 +134,61 @@ footer {
    text-align: left;
  }
  
+#blackboard-msg {
+  display: grid;
+  grid-template-columns: 10% 10% 50% 10% 10% ;
+  grid-template-rows: 10% 10% 10% 50% 10% ;
+}
+
+#black-board{
+   grid-column-start: 3;
+   grid-row-end: 5;
+}
+
+#blackboard-msg, h4 {
+ grid-column-start: 3;
+ grid-row-end: 5;
+ padding-left: 0%;
+}
+
+#blackboard-msg, h1 {
+   grid-column-start: 3 ;
+}
+
+
+.classroom-msg {
+   display: grid;
+   grid-template-columns: 10% 10% 70% 10% 10% ;
+   grid-template-rows: 10% 10% 10% 70% 10% ;  
+}
+
+.classroom-msg, p {
+   grid-column-start: 3;
+   grid-row-end: 3;
+}
+
+.class-msg2 {
+   display: grid;
+   grid-template-columns: 50% 0% 30% 10% 10% ;
+   grid-template-rows: 10% 0% 30% 10% 10% ;  
+}
+
+.classroom-msg2, p {
+   grid-column-start:3 ;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.welcome{
+   grid-row-start: 2 ;
+   
+}
+
+
+
+
+
 
 
 
