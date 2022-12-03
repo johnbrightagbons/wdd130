@@ -220,7 +220,7 @@ body  {
 }
 
 
-.evaluation:nth-of-type(1) { 
+.evaluation, h1:nth-of-type(1) { 
    width: 80%;
    margin: auto;
    text-align: center;
