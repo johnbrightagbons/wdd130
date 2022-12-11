@@ -209,7 +209,7 @@ body  {
 }
 
 
-.page1{
+.page2{
    background-color: #5BC337;
    color: black;
   font-family: PT Serif, Roboto, Arial, sans-serif;
@@ -224,7 +224,7 @@ body  {
    width: 80%;
    margin: auto;
    text-align: center;
-   border: 5px solid;
+
 }
     
 .lesson1-msg:nth-of-type(2) { 
@@ -268,7 +268,12 @@ body  {
   margin-top: 50px;
 }
 
+.exam-msg, p:nth-of-type(2), h1:nth-of-type(3)  {
+   width: 80%;
+   margin: auto;
+   text-align: left;
 
+}
 
 
 
